@@ -3,12 +3,12 @@ import { Chatbot } from "@/components/Chatbot";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-green-50 to-red-100 flex flex-col items-center p-8">
+    <main className="min-h-screen bg-gradient-to-br from-blue-50 to-green-100 flex flex-col items-center p-8">
       <div className="w-full max-w-4xl">
-        <h1 className="mb-8 text-6xl font-bold text-center bg-gradient-to-r from-Green-600 to-Purple-600 bg-clip-text text-transparent">
+        <h1 className="mb-8 text-6xl font-bold text-center bg-gradient-to-r from-Green-600 to-indigo-600 bg-clip-text text-transparent">
           FlameNextDoor;s Chatbot
         </h1>
-        <div className="bg-white rounded-2xl shadow-xl p-6">
+        <div className="bg-whiterounded-2xl shadow-xl p-6">
           <Chatbot/>
         </div>
       </div>
