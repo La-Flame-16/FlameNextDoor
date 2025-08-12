@@ -8,7 +8,7 @@ export default function Home() {
         <h1 className="mb-8 text-6xl font-bold text-center bg-gradient-to-r from-Green-600 to-indigo-600 bg-clip-text text-transparent">
           FlameNextDoor;s Chatbot
         </h1>
-        <div className="bg-whiterounded-2xl shadow-xl p-6">
+        <div className="bg-white rounded -2xl shadow-xl p-6">
           <Chatbot/>
         </div>
       </div>
